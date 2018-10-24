@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.categories</OriginalElement>
+  <nodes>
+    <node x="599.75" y="393.0">e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.sessions</node>
+    <node x="188.99999999999994" y="84.0">e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.statuses</node>
+    <node x="835.75" y="381.0">e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.payments</node>
+    <node x="572.2083333333333" y="656.0">e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.tasks_workers</node>
+    <node x="0.0" y="84.0">e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.types_of_payment</node>
+    <node x="254.20833333333326" y="309.0">e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.tasks</node>
+    <node x="377.99999999999994" y="72.0">e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.categories</node>
+    <node x="721.2777777777777" y="0.0">e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.users</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.tasks_workers" target="e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.users">
+      <point x="43.75" y="-52.5" />
+      <point x="703.4583333333333" y="631.0" />
+      <point x="1014.25" y="631.0" />
+      <point x="1014.25" y="279.0" />
+      <point x="907.6527777777777" y="279.0" />
+      <point x="79.875" y="124.5" />
+    </edge>
+    <edge source="e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.tasks_workers" target="e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.tasks">
+      <point x="-43.75" y="-52.5" />
+      <point x="615.9583333333333" y="631.0" />
+      <point x="379.70833333333326" y="631.0" />
+      <point x="0.0" y="148.5" />
+    </edge>
+    <edge source="e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.tasks" target="e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.types_of_payment">
+      <point x="-94.125" y="-148.5" />
+      <point x="285.58333333333326" y="289.0" />
+      <point x="84.5" y="289.0" />
+      <point x="0.0" y="40.5" />
+    </edge>
+    <edge source="e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.tasks" target="e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.users">
+      <point x="94.125" y="-148.5" />
+      <point x="473.83333333333326" y="279.0" />
+      <point x="747.9027777777777" y="279.0" />
+      <point x="-79.875" y="124.5" />
+    </edge>
+    <edge source="e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.tasks" target="e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.categories">
+      <point x="31.375" y="-148.5" />
+      <point x="411.08333333333326" y="269.0" />
+      <point x="490.49999999999994" y="269.0" />
+      <point x="0.0" y="52.5" />
+    </edge>
+    <edge source="e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.sessions" target="e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.users">
+      <point x="0.0" y="-64.5" />
+      <point x="707.75" y="289.0" />
+      <point x="801.1527777777777" y="289.0" />
+      <point x="-26.625" y="124.5" />
+    </edge>
+    <edge source="e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.payments" target="e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.users">
+      <point x="0.0" y="-76.5" />
+      <point x="919.75" y="289.0" />
+      <point x="854.4027777777777" y="289.0" />
+      <point x="26.625" y="124.5" />
+    </edge>
+    <edge source="e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.tasks" target="e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.statuses">
+      <point x="-31.375" y="-148.5" />
+      <point x="348.33333333333326" y="279.0" />
+      <point x="273.49999999999994" y="279.0" />
+      <point x="0.0" y="40.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="527.0" y="380.5" />
+  <SelectedNodes>
+    <node>e8949ed9-0132-4057-9542-37a3129b7100.TABLE:Project.users</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
