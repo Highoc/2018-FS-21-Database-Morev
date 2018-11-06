@@ -1,0 +1,6 @@
+id,type
+1,awaited start
+2,in process
+3,finished
+4,halted
+5,cancelled

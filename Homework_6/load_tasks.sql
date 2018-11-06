@@ -1,0 +1,5 @@
+LOAD DATA INFILE '/var/lib/mysql-files/tasks.csv'
+INTO TABLE Project.tasks
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
