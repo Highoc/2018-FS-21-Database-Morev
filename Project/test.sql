@@ -1,0 +1,1 @@
+SELECT * FROM Project.users where id in (51, 186);
